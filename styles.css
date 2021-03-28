@@ -1,0 +1,418 @@
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+  /*display:inline-block;*/
+  /*width:100%;*/
+  /*height:100%;*/
+ }
+
+.box_link{
+  display:inline-block;
+  width:100%;
+  height:100%;
+}
+
+.img_inbox{
+    border: 1px black solid;
+}
+
+h1{
+    margin-bottom:20px;
+    /*CHANGE THIS FONT*/
+}
+
+body{
+    font:15px/1.5 Arial;
+    padding:0px;
+    margin:0px;
+    background-color: #3C4C75;
+    height:100%;
+}
+
+section{
+    margin-bottom:30px;
+    margin-top:30px;
+    /*margin-left:20px;*/
+    /*margin-right:20px;*/
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: white;
+    border:black 2px solid ;
+    /*border-radius: 25px;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.container{
+    width:auto;
+    margin-left:auto;
+    overflow:hidden;
+
+}
+
+.container-fluid{
+    text-align:center;
+    padding: 0 5% 0 5%;
+}
+
+p{
+    font-size:20px;
+}
+
+header{
+    display: block;
+    background: #3C4C75;
+    color:#ffffff;
+    min-height:50px;
+    border-bottom:#3bb446 4px solid;
+    margin:auto;
+    padding-right:10px;
+}
+
+header::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+
+ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.navbar a{
+    color: #FFFFFF;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:20px;
+    text-align: center;
+
+
+}
+
+.navbar a:hover{
+
+
+}
+
+.navbar a::before{
+    content:'';
+    display:block;
+    height:5px;
+    width:0%;
+    background-color:white;
+
+    position:absolute;
+    top:0;
+}
+
+.navbar a:hover::before{
+    width:100%;
+}
+
+
+nav{
+    float:right;
+}
+
+nav li{
+    display:inline-block;
+    padding-top: 10px;
+    margin-left:20px;
+    position:relative;
+
+}
+
+
+/* headline */
+#headline_section{
+    padding-top:0px;
+    margin-bottom:0px;
+    overflow:hidden;
+    margin:0;
+    margin-top:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-left:0px;
+    background-color: #FFFFFF;
+    border:#B9B9B9 0px solid;
+    border-radius: 0px;
+}
+
+
+#headline{
+    height:100vh;
+}
+
+.headline{
+    margin:0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+    background:url('images/qwerty.jpg') no-repeat top;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.description{
+    padding:10px;
+}
+
+#socials{
+    margin:40px;
+}
+
+#socials li{
+    display:inline;
+    margin:50px;
+}
+
+.social_img{
+    border:#ffffff 1px solid;
+}
+
+.social_img:hover{
+    border:#ffffff 3px solid;
+}
+
+.headline h1{
+    margin-top:10%;
+    margin-bottom:4%;
+    font-size:90px;
+
+}
+
+.headline h3{
+    margin-top:40px;
+    margin-bottom:5%;
+    font-size:35px;
+
+}
+
+#headline p{
+    font-size:20px;
+}
+
+/*featured project*/
+
+#featured_section{
+    margin-top:0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+
+
+.featured_project{
+    border:3px solid white;
+    box-sizing: border-box;
+    padding:2%;
+    margin-left:2%;
+    margin-right:2%;
+    min-width:30%;
+    background-color:#FFFFFF;
+    margin-top:0;
+    border-radius: 15px;
+}
+
+.featured_project:hover{
+    border: 3px solid #666666;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.post_title {
+    font-weight: bold;
+    font-size: 200%;
+    padding: 9px;
+    background: #ccc;
+    width:98%;
+    text-align: center;
+    margin-left:1%;
+    margin-right:1%;
+}
+
+.post_title {
+
+}
+
+.featured_title{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.featured_content{
+    /*display:flex;*/
+    /*flex-wrap:wrap;*/
+    margin-left:1%;
+    margin-right:1%;
+    min-width:30%;
+    /*align-content:center;*/
+    /*justify-content:center;*/
+}
+
+.thumb_img{
+    float:left;
+    max-width:450px;
+    min-width:30%;
+    /*max-width:100%;*/
+    margin:20px;
+    /*height:auto;*/
+    /*margin:auto;*/
+
+
+}
+
+.thumb_text:before {
+  content: ' ';
+  width: 100px;
+}
+
+.thumb_text{
+    /*text-align:left;*/
+    display:inline;
+    text-size:30;
+    min-width:30px;
+    margin:10px;
+
+}
+
+#featured_project h1{
+    font-size:50px;
+}
+
+.flexbox_container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-content:center;
+    align-items:center;
+    vertical-align:top;
+
+}
+
+.box{
+    padding:5px;
+    margin:15px;
+    width:375px;
+    height:475px;
+    border:3px solid white;
+    /*background-color: #A3CF8F;*/
+    /*border:3px solid white;*/
+    vertical-align:top;
+    text-align: center;
+    justify-content:space-between;
+    align-items:center;
+    border-radius: 5px;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+
+
+}
+
+.box:hover{
+    border:3px solid #666666;
+    background-color: #FBF6F6;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.projects_title{
+    text-align:center;
+}
+
+
+.box_text{
+    display:flex;
+    width:90%;
+    height:80px;
+    margin-left:5%;
+    margin-right:5%;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    max-width:350px;
+}
+
+
+.box h3{
+    text-align:center;
+    font-weight:bold;
+
+}
+
+.box p{
+    margin:10px;
+    vertical-align: middle;
+    line-height:1.2;
+}
+
+.project_img{
+    width:300px;
+    margin: 10px 0px;
+}
+
+.school_img1{
+    height: 150px;
+    width:auto;
+}
+
+.school_img2{
+    height: 150px;
+    width: auto;
+
+}
+
+#contact{
+    margin-bottom:10px;
+}
+
+.degree{
+    padding:10px;
+    margin:15px;
+    width:400px;
+    min-height:400px;
+    vertical-align:space-between;
+    text-align: center;
+    justify-content:space-between;
+    border:3px solid white;
+    align-items:center;
+
+}
+
+.degree:hover{
+    border:3px solid #c8c8c8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.degree .box_text{
+    display:flex;
+    width:100%;
+    height:120px;
+    /*margin-left:0px;*/
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.degree_name{
+    margin: 30px 0px;
+    min-height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.degree h2{
+    display: inline-block;
+    vertical-align: middle;
+
+}
