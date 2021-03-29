@@ -25,7 +25,7 @@ body{
     font:15px/1.5 Arial;
     padding:0px;
     margin:0px;
-    background-color: #3C4C75;
+    background-color: #3299CC;
     height:100%;
 }
 
@@ -45,8 +45,7 @@ section{
 }
 
 .container{
-    width:auto;
-    margin-left:auto;
+
     overflow:hidden;
 
 }
@@ -65,7 +64,7 @@ header{
     background: #3C4C75;
     color:#ffffff;
     min-height:50px;
-    border-bottom:#3bb446 4px solid;
+    border-bottom:white 2px solid;
     margin:auto;
     padding-right:10px;
 }
@@ -181,6 +180,7 @@ nav li{
 
 .social_img:hover{
     border:#ffffff 3px solid;
+    transition: 0.05s;
 }
 
 .headline h1{
@@ -212,7 +212,7 @@ nav li{
 
 
 .featured_project{
-    border:3px solid white;
+    /*border:3px solid white;*/
     box-sizing: border-box;
     padding:2%;
     margin-left:2%;
@@ -224,11 +224,20 @@ nav li{
 }
 
 .featured_project:hover{
-    border: 3px solid #666666;
-    background-color: white;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /*border: 3px solid #666666;*/
+    /*background-color: white;*/
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
+
+    background: rgba(60, 76, 117, 0.15);
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
+    transition: 0.4s;
 
 }
+
+.click_here{
+    font-weight:bold;
+}
+
 
 .post_title {
     font-weight: bold;
@@ -303,25 +312,46 @@ nav li{
 .box{
     padding:5px;
     margin:15px;
-    width:375px;
+    width:400px;
     height:475px;
     border:3px solid white;
-    /*background-color: #A3CF8F;*/
-    /*border:3px solid white;*/
+    background: rgba(30, 40, 60, 0.10);
+    border:3px solid white;
     vertical-align:top;
     text-align: center;
     justify-content:space-between;
     align-items:center;
     border-radius: 5px;
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+    /*display:block;*/
+    /*margin:5rem;*/
+    /*padding:1rem;*/
+    /*overflow:visible;*/
+    /*background:red;*/
+    /*width:85%;*/
+    /*height:30rem*/
 
 
 }
+.project:hover .hover-content{
+    background:rgba(0,0,0,.7);
+    position:absolute;
+    width:40rem;
+    height:30rem;
+    text-align:left;
+    border-bottom-right-radius:100rem;
+    display:block;
+    -webkit-animation:fadein .5s;
+    animation:fadein .5s
 
+}
 .box:hover{
-    border:3px solid #666666;
-    background-color: #FBF6F6;
+    /*border:3px solid #666666;*/
+    background: rgba(60, 76, 117, 0.15);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.4s;
 }
 
 .projects_title{
@@ -372,6 +402,7 @@ nav li{
 
 #contact{
     margin-bottom:10px;
+    text-align:center;
 }
 
 .degree{
@@ -388,7 +419,7 @@ nav li{
 }
 
 .degree:hover{
-    border:3px solid #c8c8c8;
+    /*border:3px solid #c8c8c8;*/
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -411,8 +442,27 @@ nav li{
     align-items: center;
 }
 
-.degree h2{
+.degree h3{
     display: inline-block;
     vertical-align: middle;
 
+}
+
+.contact{
+    padding:20px;
+}
+
+.contact h3{
+   padding:7px;
+   display:inline;
+}
+.contact h3:after{
+   height:100px;
+}
+
+.contact h3:hover{
+    /*border:3px solid #666666;*/
+    background: rgba(60, 76, 117, 0.15);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.4s;
 }
