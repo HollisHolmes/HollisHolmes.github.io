@@ -4,6 +4,7 @@ a, a:hover, a:visited, a:active {
  }
 
 .para_link{
+    color:blue;
     text-decoration: underline;
 }
 
@@ -103,6 +104,9 @@ section{
   font-size: 20px;
   transition: 0.4s;
   margin:5px;
+  min-height:50px;
+  height:auto;
+  white-space: normal;
 }
 
 .active, .accordion:hover {
@@ -114,4 +118,13 @@ section{
   display: none;
   background-color: white;
   overflow: hidden;
+}
+
+.panel li{
+    font-size:18px;
+}
+
+.panel li a{
+    color:blue;
+    text-decoration:none;
 }
