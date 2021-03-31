@@ -116,11 +116,23 @@ section{
 
 
 .accordion {
+    background-image: url(/images/plus-xxl.png); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 10px 25px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 16px;           /* make this the size of your image */
+
+    vertical-align: middle; /* align the text vertically centered */
+    background-size: 16px 16px;
+
   background-color: #3299CC;
   color: white;
   /*font-weight:bold;*/
   cursor: pointer;
   padding: 18px;
+  padding-left: 40px;     /* make text start to the right of the image */
   width: 100%;
   border: none;
   text-align: left;
