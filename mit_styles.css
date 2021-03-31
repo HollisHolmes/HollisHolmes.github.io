@@ -52,6 +52,30 @@ header::after{
 
 }
 
+@media (max-width: 701px){
+.nav_right{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+.nav_left{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+header{
+    display: block;
+    background: #3C4C75;
+    color:#ffffff;
+    min-height:40px;
+    border-bottom:#3bb446 4px solid;
+    margin:auto;
+    padding: 10px 30px;
+}
+header::after{
+    content:'';
+}
+
+}
+
 header h1{
     position:relative;
     padding-top:5px;
