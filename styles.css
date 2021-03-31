@@ -477,7 +477,10 @@ nav ul{
 .degree h3{
     display: inline-block;
     vertical-align: middle;
+}
 
+.honors{
+  font-style: italic;
 }
 
 .contact{
