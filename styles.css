@@ -270,6 +270,19 @@ nav li{
 }
 
 .thumb_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:450px;
+    min-width:30%;
+    /*max-width:100%;*/
+    /*margin:20px;*/
+    /*height:auto;*/
+    /*margin:auto;*/
+}
+
+@media (min-width: 1201px){
+.thumb_img{
     float:left;
     max-width:450px;
     min-width:30%;
@@ -277,22 +290,14 @@ nav li{
     margin:20px;
     /*height:auto;*/
     /*margin:auto;*/
-
-
-}
-
-.thumb_text:before {
-  content: ' ';
-  width: 100px;
-}
+}}
 
 .thumb_text{
     /*text-align:left;*/
     display:inline;
     text-size:30;
-    min-width:30px;
-    margin:10px;
-
+    min-width:200px;
+    margin:10px ;
 }
 
 #featured_project h1{
