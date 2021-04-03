@@ -189,12 +189,12 @@ nav ul{
 }
 
 #socials{
-    margin:20px;
+    margin:15px;
 }
 
 #socials li{
     display:inline;
-    margin:20px;
+    margin:15px;
 }
 
 .social_img{
@@ -261,6 +261,7 @@ nav ul{
 
 .click_here{
     font-weight:bold;
+    font-size:25px;
 }
 
 
